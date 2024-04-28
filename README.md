@@ -11,6 +11,7 @@ This application provides real-time weather forecasts based on geographical loca
    npx prisma generate
    npx prisma migrate dev --name init
    npm run start:dev
+   The application will be accessible at http://localhost:3000
 
 2. **Set Environment Variables**: Create a .env file in the root directory of the project and define the following variables:
 
